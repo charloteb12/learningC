@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+  // Create a string
+  char color[30];
+  char adjective[30];
+  char goal[30];
+
+  // Ask the user to input some text (name)
+  printf("A color: \n");
+  printf("An adjective: \n");
+  printf("A goal you would like to achieve: \n");
+
+  // Get and save the text
+  scanf("%s", color);
+  scanf("%s", adjective);
+  scanf("%s", goal);
+  
+  return 0;
+}
